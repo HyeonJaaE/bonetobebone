@@ -1,5 +1,18 @@
+@import url("https://p.typekit.net/p.css?s=1&k=ehy7syo&ht=tk&f=43487.43488.43489.43490.43491.43493.43494&a=4276308&app=typekit&e=css");
+
+@font-face {
+    font-family: 'MapoDacapo';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/MapoDacapoA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 *{
     box-sizing:border-box;
+	font-family:'MapoDacapo';
+	font-size: 1.5rem;
+	letter-spacing: -0.02em;
+	line-height:180%;
 }
 body{
     margin: 0;
