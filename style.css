@@ -1,0 +1,116 @@
+*{
+    box-sizing:border-box;
+}
+body{
+    margin: 0;
+}
+
+img{
+    max-height: 100vh;
+    max-width: 75vw;
+}
+
+.container{
+    background-color: rgb(23,23,23);
+}
+
+.imgs-scroll{
+    max-width: 50vw;
+    margin: 0 auto;
+}
+
+.img-container{
+    width: 100%;
+    min-height: 150vh;
+    padding: 10px 0 10px 0;
+}
+
+#scroll-1 {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+#character{
+    animation: fadeOut 6s infinite linear;
+}
+
+#scroll-1 img{
+    position: absolute;
+}
+
+#scroll-1-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#scroll-1-2 img{
+    width: 30vw;
+    position: relative;
+}
+
+#scroll-2{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+#scroll-2 img{
+    width: 30vw;
+}
+
+#scroll-5 {
+    display: block;
+    padding: 100vh 0;
+    height: 300vh;
+}
+
+#scroll-5 .img-wrapper{
+    position: sticky;
+    max-width: 10vw;
+}
+
+#scroll-5 img{
+    max-width: 10vw;
+}
+
+#scroll-6{
+    height: 400vh;
+    flex-direction: column;
+}
+
+.visible{
+    opacity: 1 !important;
+}
+
+.txt-scroll{
+    position: fixed;
+    top: 0;
+    height: 100vh;
+    width: 100vw;
+}
+
+.txt-container{
+    position: absolute;
+    width: 100vw;
+    text-align: center;
+    bottom: 10%;
+    opacity: 0; 
+    border-radius: 10px;
+    padding: 15px;
+    color: white;
+    transition: 1s ease;
+}
+
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+    50%{
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+  }
