@@ -1,1 +1,3 @@
 # bonetobebone
+
+init readme
